@@ -1,0 +1,23 @@
+{
+  "name": "testingfun",
+  "version": "1.0.0",
+  "description": "I'm just playing around with testing, mostly using Mocha and Chai.",
+  "main": "mathtest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraBroad/TestingFun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraBroad/TestingFun/issues"
+  },
+  "homepage": "https://github.com/SaraBroad/TestingFun#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
