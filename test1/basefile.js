@@ -7,6 +7,13 @@ var lowerCase = function (fruit) {
         fruit = fruits[i];
         fruits[i] = changeCase(fruit.toUpperCase());
     }
+
+    var potentialFruit = fruits[0];
+    if (produce.includes(potentialFruit.toUpperCase())) {
+        var length = potentialFruit.length;
+    }
+    
+    return fruits.join(" ");
 }
 
 function changeCase(fruit) {
@@ -14,3 +21,9 @@ function changeCase(fruit) {
 }
 
 module.exports = basefile;
+
+if (titles.includes(potentialTitle.toLowerCase())) {
+    var length = potentialTitle.length;
+
+    if (potentialTitle[length - 1] !== ".") {
+      names[0] = potentialTitle + ".";
