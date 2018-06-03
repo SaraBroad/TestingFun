@@ -1,7 +1,12 @@
-var lowerCase = function(name) {
+var lowerCase = function (fruit) {
 
-var states = ["PENNSYLVANIA", "FLORIDA", "WASHINGTON", "DELAWARE"];
-var names = name.split(" ");
+    var produce = ["Apple", "Orange", "Banana", "Pineapple"];
+    var names = name.split(" ");
 
+    for (var i = 0; i < fruits.length; i++) {
+        fruit = fruits[i];
+    }
 }
+
+
 module.exports = basefile;
