@@ -8,5 +8,8 @@ var lowerCase = function (fruit) {
     }
 }
 
+function changeCase(fruit) {
+    return fruit.charAt(0).toLowerCase() + fruit.slice(1);
+}
 
 module.exports = basefile;
