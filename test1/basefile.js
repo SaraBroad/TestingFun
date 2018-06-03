@@ -5,6 +5,7 @@ var lowerCase = function (fruit) {
 
     for (var i = 0; i < fruits.length; i++) {
         fruit = fruits[i];
+        fruits[i] = changeCase(fruit.toUpperCase());
     }
 }
 
