@@ -1,15 +1,3 @@
-describe("Multiply", function() {
-  it("should multiply properly when passed numbers", function() {
-    expect(multiply(2, 4)).to.equal(8);
-  });
-
-  it("should throw when not passed numbers", function() {
-    expect(function() {
-      multiply(2, "4");
-    }).to.throw(Error);
-  });
-});
-
 var expect = require("chai").expect;
 
 var addition = function(x, y) {
@@ -18,3 +6,15 @@ var addition = function(x, y) {
     }
     else return x + y;
 }
+
+describe("Addition", function(){
+    it ("should multiply properly when passed numbers", function(){
+        expect(addition(4, 4)).to.equal(8);
+    });
+
+    it("should throw when not passed numbers", function(){
+        expect(function(){
+            addition("4", 4);
+        }).to.throw(Error);
+    });
+});
